@@ -5,6 +5,7 @@ import android.util.AttributeSet;
 import android.widget.TextClock;
 
 public class CustomTextClock extends TextClock {
+    //https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
     private static final String DEFAULT_FORCED_24_HOUR_FORMAT = "kk:mm";
 
     public CustomTextClock(Context context) {

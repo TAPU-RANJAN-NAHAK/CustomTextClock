@@ -24,6 +24,7 @@ public class CustomTextClock extends TextClock {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 
+    @Override
     public void setFormat24Hour(CharSequence charSequence) {
         if (is24HourModeEnabled()) {
             super.setFormat24Hour(charSequence);
@@ -32,6 +33,7 @@ public class CustomTextClock extends TextClock {
         }
     }
 
+    @Override
     public void setFormat12Hour(CharSequence charSequence) {
         if (is24HourModeEnabled()) {
             super.setFormat24Hour(charSequence);

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustomTextClock</string>
+    <string name="hour_12_format">12 Hour Format</string>
+    <string name="hour_24_format">24 Hour Format</string>
+    <string name="english">English</string>
+    <string name="fr">FR</string>
+</resources>
